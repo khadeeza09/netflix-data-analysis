@@ -2,29 +2,27 @@
 
 A complete exploratory data analysis (EDA) project based on Netflix viewing history. This project demonstrates data cleaning, manipulation, feature extraction, and visualization techniques using Python data science libraries.
 
-🎯 Objectives
+🔥 Features
 
-Analyze personal viewing patterns
+Loads and reads the Netflix viewing history CSV
 
-Identify genre preferences
+Converts the Date column into the correct datetime format
 
-Detect binge-watching habits
+Shows the first few rows and dataset info
 
-Analyze watch time distribution
+Counts total titles watched
 
-Build meaningful visualizations
+Finds how many unique titles you watched
 
-🔥 Key Insights
+Shows your most-watched movie/show
 
-✔ Most-watched genres
+Creates basic charts using Matplotlib
 
-✔ Peak watch time (morning/evening/night)
+Displays stats like rewatched titles
 
-✔ Movie vs TV Series distribution
+Handles cases where there are no rewatched movies
 
-✔ Duration-based patterns
-
-✔ Daily & hourly watch trends
+Basic data cleaning and formatting
 
 🧰 Tech Stack
 
@@ -109,11 +107,25 @@ jupyter notebook analysis.ipynb
 
 🚀 Future Enhancements
 
-Build a Streamlit dashboard
+Add more charts (pie chart of genres, bar chart of watch frequency by year/month)
 
-Add recommendation system
+Add a heatmap showing what days you watch the most
 
-NLP analysis on show descriptions
+Add top 10 most-watched shows/movies
+
+Add total minutes watched (if data has duration)
+
+Add filtering options (only movies, only TV shows, specific years)
+
+Improve visual design of graphs (colors, labels, styling)
+
+Create a dashboard using Streamlit or Plotly
+
+Add recommendations (e.g., genres you watch most)
+
+Clean the data more (remove duplicates, fix inconsistent titles)
+
+Add a summary report at the end
 
 📄 License
 
